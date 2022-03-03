@@ -2,7 +2,7 @@ from brownie import My_token
 from scripts.helpful_scripts import get_account
 from web3 import Web3
 
-inital_supply = Web3.toWei(1000, "ether")
+inital_supply = Web3.toWei(10000, "ether")
 
 
 def main():
